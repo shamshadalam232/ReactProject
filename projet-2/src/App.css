@@ -46,6 +46,9 @@ body {
 
  .Section2{
     margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
  }
 
  .photo img {
@@ -78,3 +81,34 @@ body {
     right: 10px;
     top: 200px;
  }
+
+ .photo h3 {
+   position: absolute;
+   top: 265px;
+   left: 10px;
+   background: #113c8c;
+   color: #ffffff;
+   border-radius: 15px;
+   padding: 5px;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 120px;
+   display: flex;
+ }
+
+ .arrowsection{
+   position: absolute;
+   top: 265px;
+   right: 10px;
+   background: #113c8c;
+   color: #ffffff;
+   border-radius: 15px;
+   padding: 5px;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 30px;
+   display: flex;
+ }
+

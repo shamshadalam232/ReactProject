@@ -1,13 +1,20 @@
 import React from 'react'
+import { ArrowRight } from "lucide-react"
 
-export default function Section2() {
+
+
+export default function Section2({data}) {
   return (
-    <div className='Section2'>
-      <div className='photo'>
-      <img src='https://i.pinimg.com/736x/16/35/2b/16352b1b70d94f7da4aca0764a6c099a.jpg' alt='ph' className='image'/>
-      <h2>1</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi nostrum .</p>
+    <div className='Section2' >
+     {data.map((item) =>(
+      <div className='photo' key={item.id}>
+      <img src={item.image} alt='ph' className='image'/>
+      <h2>{item.id}</h2>
+      <p>{item.paragraph}</p>
+      <h3>{item.ekaur}</h3>
+      <ArrowRight className='arrowsection'/>
       </div>
+     ))}
     </div>
   )
 }
