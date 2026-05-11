@@ -1,0 +1,18 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  background: #000;
+  color: aliceblue;
+}
+
+button  {
+  background-color: red;
+  height: 30px;
+  width: 70px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+h1{
+  margin: 20px;
+}
