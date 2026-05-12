@@ -1,0 +1,91 @@
+.input1{
+  display: flex;
+  width: 94%;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
+  border-color: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input2{
+  display: flex;
+  width: 94%;
+  height: 50px;
+  margin: 20px;
+  padding: 10px;
+  border-color: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.button{
+  display: flex;
+  width: 94%;
+  height: 30px;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: #960a0a;
+  border-radius: 20px;
+  
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.notesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main{
+  position: relative;
+  width: 300px;
+  margin: 11px;
+}
+
+.image{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.content{
+  position: absolute;
+  top: 50px;
+  left: 65px;
+  width: 180px;
+  background: transparent;
+}
+
+.title{
+  font-size: 30px;
+  color: black;
+  background: transparent;
+  margin: 0;
+}
+
+.paragraph{
+  font-size: 18px;
+  color: black;
+  background: transparent;
+  margin-top: 10px;
+  width: 120px;
+  word-wrap: break-word;
+}
+
+.button2{
+  margin-top: 20px;
+  padding: 8px 15px;
+  border-radius: 15px;
+  background: #a12020;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
