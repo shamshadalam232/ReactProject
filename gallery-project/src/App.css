@@ -1,0 +1,50 @@
+*{
+  background: #000;
+}
+
+.image{
+  width: 200px;
+  margin: 5px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  object-fit: cover;
+  
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #000;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+
+.loading{
+  margin-top: 20%;
+}
+
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.button {
+    margin: 5px;
+    color: brown;
+    font-size: 25px;
+    background: #71f901;
+    border-radius: 10px;
+    border: none;
+}
+
+button:active{
+   transform: scale(0.95);
+}
